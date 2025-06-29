@@ -3,16 +3,16 @@
 An AI-powered web application that generates weather-aware, day-wise travel itineraries based on a destination and travel date using the Groq LLaMA model and RapidAPI weather forecast API.
 📦 Project Structure
 
-travel_backend/        # Django backend
-├── config/              # Django settings
-├── itinerary/           # App with views, serializers, weather, groq logic
-├── manage.py
-
-travel-frontend/         # React frontend (Vite or CRA)
-├── src/
-│   ├── components/
-│   ├── App.jsx
-│   └── main.jsx
+    travel_backend/        # Django backend
+    ├── config/              # Django settings
+    ├── itinerary/           # App with views, serializers, weather, groq logic
+    ├── manage.py
+    
+    travel-frontend/         # React frontend (Vite or CRA)
+    ├── src/
+    │   ├── components/
+    │   ├── App.jsx
+    │   └── main.jsx
 
 ⚙️ Setup Instructions
 🔁 Backend (Django)
